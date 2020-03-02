@@ -1,2 +1,3 @@
-# Twitter Summarizer Rest Service by Elizabeth Slade
+# Twitter Summarizer Rest Service 
+### by Elizabeth Slade
 
