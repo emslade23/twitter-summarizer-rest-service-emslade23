@@ -1,4 +1,4 @@
-# Twitter Summarizer Rest Service 
+# Twitter Summarizer REST Service 
 ### by Elizabeth Slade
 
 ## Routes
