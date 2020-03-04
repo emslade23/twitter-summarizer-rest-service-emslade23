@@ -5,10 +5,11 @@ def init():
     global twitterCompletedTasks
     global twitterHandles
     global numberOfTweetsArray
-    global directoryNameArray
+    global identifier
     
     twitterQueue = queue.Queue(maxsize=40)
     twitterCompletedTasks = {}
     twitterHandles = []
     numberOfTweetsArray = []
-    directoryNameArray = []
+
+    identifier = 5

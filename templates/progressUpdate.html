@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Processes Running </title>
+</head>
+<body>
+   <h1>Processes</h1>
+   <h2>Below are the current tasks running on Lizzy's API. </h2>
+   {% for key, task in processes.items() %}
+   <h3> Request ID {{ key }} for {{ task.twitterHandle }}: {{ task.status }}. Processing {{task.tweetNumber }} tweets. </h3>
+   {% endfor %}
+</body>
+</html>
