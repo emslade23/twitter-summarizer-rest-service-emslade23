@@ -1,6 +1,20 @@
 # Twitter Summarizer REST Service 
 ### by Elizabeth Slade
 
+## System Setup
+1. git clone this repo
+2. Get a virtual environment.
+        
+        source env/bin/activate
+        
+3. Install requirements. 
+        
+        pip install -r requirements.txt 
+        
+4. Run local server
+       
+        python3 getVideo.py 
+
 ## Routes
 
 this is a flask app.
