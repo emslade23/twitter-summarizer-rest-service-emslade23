@@ -9,6 +9,7 @@ import shutil
 from flask import Flask, render_template, request, send_file
 
 import globalProcesses as gp
+gp.init()
 from getTweets import userTweets
 
 shutil.copy('keys', 'keys.py')
@@ -83,7 +84,6 @@ def removeTweetVids():
 
 
 if __name__ == '__main__':
-    gp.init()
     removeTweetImages()
     removeTweetVids()
 
