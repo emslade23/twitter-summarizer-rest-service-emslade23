@@ -1,4 +1,9 @@
 import queue
+global twitterQueue 
+global twitterCompletedTasks
+global twitterHandles
+global numberOfTweetsArray
+global identifier
 
 def init():
     global twitterQueue 
