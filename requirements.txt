@@ -4,3 +4,4 @@ requests
 Pillow==7.0.0
 ffmpeg
 pytest-shutil==1.7.0
+gunicorn==20.0.4
