@@ -3,15 +3,15 @@
 
 this is a flask app.
 
-https://twitter-video-app.herokuapp.com/tweetVideo?handle=@elonmusk&tweetNumber=30
+example call: https://twitter-video-app.herokuapp.com/tweetVideo?handle=@lifemathmoney&tweetNumber=30
 
 ## Routes for Heroku Deployment
-### Link: https://twitter-video-app.herokuapp.com !
+### Website Link: https://twitter-video-app.herokuapp.com !
 
 
 1. "/": the welcome page
 2. "/tweetVideo": default collects most recent 10 tweets of @elonmusk
-    - adding **?handle=@elonmusk&tweetNumber=30** to the end of the URL 
+    - adding **"?handle=@elonmusk&tweetNumber=30"** to the end of the website link 
         - **handle** changes the twitter handle to @elonmusk
         - **tweetNumber** changes the number of tweets for the video
 3. "/progressUpdate"
